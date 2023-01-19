@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/api/src",
+  "projectType": "apilication",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+          "command": "python3 manage.py runserver",
+          "cwd": "apps/api"
+      }
+    }
+  },
+  "tags": []
+}

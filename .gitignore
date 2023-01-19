@@ -37,3 +37,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
